@@ -25,7 +25,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/google/pixel/overlay/static
 DEVICE_PACKAGE_OVERLAYS += vendor/google/pixel/overlay/static
 
-# Set default ringtone, notification and alarm
+# Audio
+$(call inherit-product, vendor/google/pixel/PixelAudio.mk)
+
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.config.ringtone=Your_new_adventure.ogg \
     ro.config.notification_sound=Eureka.ogg \
