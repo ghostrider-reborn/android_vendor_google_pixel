@@ -32,7 +32,7 @@ PRODUCT_PACKAGES += \
     MarkupGoogle \
     SoundPickerPrebuilt \
     DeviceIntelligenceNetworkPrebuilt \
-    DevicePersonalizationPrebuiltPixel2021 \
+    DevicePersonalizationPrebuiltPixel2020 \
     RecorderPrebuilt \
     SettingsIntelligenceGooglePrebuilt \
     TurboPrebuilt \
